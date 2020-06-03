@@ -28,5 +28,5 @@ jobs:
     - name: Installing surge
       run: npm install --g surge
     - name: Run surge
-      run: surge ./ ceaseless-knowledge.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./ brash-parent.surge.sh --token ${{secrets.SURGE_TOKEN}}
      
