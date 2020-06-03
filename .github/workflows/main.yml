@@ -28,5 +28,5 @@ jobs:
     - name: Installing surge
       run: npm install --globally surge
     - name: deploy using surge
-      run: surge ./ ambiguous-help.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./ ceaseless-knowledge.surge.sh --token ${{ secrets.SURGE_TOKEN }}
      
