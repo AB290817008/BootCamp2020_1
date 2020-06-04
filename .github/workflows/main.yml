@@ -13,7 +13,7 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -28,5 +28,5 @@ jobs:
     - name: Installing surge
       run: npm install --globally surge
     - name: Deploy using surge
-      run: surge ./ sloppy-answer.surge.sh --token ${{secrets.MY_TOKEN}}
+      run: surge ./ sloppy-answer.surge.sh --token ${{ secrets.MY_TOKEN }}
      
