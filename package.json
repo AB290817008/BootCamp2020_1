@@ -1,0 +1,23 @@
+{
+  "name": "bootcamp2020_1",
+  "version": "1.0.0",
+  "description": "BootCampClass1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AB290817008/BootCamp2020_1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AB290817008/BootCamp2020_1/issues"
+  },
+  "homepage": "https://github.com/AB290817008/BootCamp2020_1#readme",
+  "devDependencies": {
+    "git-scripts": "^0.4.3",
+    "surge": "^0.21.3"
+  }
+}
